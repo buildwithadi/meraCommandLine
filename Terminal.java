@@ -143,15 +143,15 @@ public class Terminal {
                     case "?":
                         args(parser.getArgs()[0]);
                         break;
-                    case "cp":
+                    case "chapo":
                         cp(parser.getArgs()[0], parser.getArgs()[1]);
                         break;
-                    case "cd":
+                    case "badlo":
                         if (parser.getArgsCount() == 0)
                             cd();
                         else cd(parser.getArgs()[0]);
                         break;
-                    case "clear":
+                    case "safkro":
                         printManager.clear();
                         break;
                     case "ls":
@@ -159,22 +159,22 @@ public class Terminal {
                             ls();
                         else ls(parser.getArgs()[0]);
                         break;
-                    case "pwd":
+                    case "kha-hu":
                         pwd();
                         break;
-                    case "mv":
+                    case "lejao":
                         mv(parser.getArgs()[0], parser.getArgs()[1]);
                         break;
                     case "rm":
                         rm(parser.getArgs()[0]);
                         break;
-                    case "mkdir":
+                    case "banao-khali":
                         mkdir(parser.getArgs()[0]);
                         break;
-                    case "rmdir":
+                    case "hato":
                         rmdir(parser.getArgs()[0]);
                         break;
-                    case "date":
+                    case "tarik":
                         date();
                         break;
                     case "cat":
@@ -182,13 +182,13 @@ public class Terminal {
                             cat(parser.getArgs()[0]);
                         else cat(parser.getArgs()[0], parser.getArgs()[1]);
                         break;
-                    case "more":
+                    case "aur":
                         printManager.more();
                         break;
                     case "args":
                         args(parser.getArgs()[0]);
                         break;
-                    case "maddad":
+                    case "madad":
                         help();
                         break;
                     case "niklo":
